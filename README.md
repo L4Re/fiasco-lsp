@@ -4,7 +4,7 @@ editor (sees un-preprocessed Fiasco source) and a language server (sees
 preprocessed Fiasco), thereby making it possible to use a language server such
 as clangd, when reading/(writing) in your favorite LSP-enabled editor.
 
-An inherent limitation, but depending on the situation also an advantage, of
+An inherent limitation, but depending on the situation can also be an advantage, of
 this LSP proxy approach is that you are always limited to a single Fiasco
 configuration. This means, for example, implementations or references to a
 method in other architectures are not displayed.
